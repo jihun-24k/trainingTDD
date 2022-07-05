@@ -34,6 +34,18 @@ public class AppTest {
         int rs = Calculator.run("40 - 20");
         assertEquals(20,rs);
     }
+
+    @Test
+    public void multipleTest1(){
+        int rs = Calculator.run("20 * 20");
+        assertEquals(400, rs);
+    }
+
+    @Test
+    public void divideTest1(){
+        int rs = Calculator.run("30 / 10");
+        assertEquals(3, rs);
+    }
 }
 
 
