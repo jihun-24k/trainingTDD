@@ -8,13 +8,19 @@ public class AppTest {
     @Test
     public void addTest1(){
         int rs = Calculator.add("10 + 10");
-        assertEquals(30, rs);
+        assertEquals(20, rs);
     }
 
     @Test
     public void addTest2(){
         int rs = Calculator.add("20 + 20");
         assertEquals(40,rs);
+    }
+
+    @Test
+    public void addTest4(){
+        int rs = Calculator.add("30 + 20");
+        assertEquals(50, rs);
     }
 }
 
