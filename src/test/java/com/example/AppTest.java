@@ -22,6 +22,18 @@ public class AppTest {
         int rs = Calculator.run("30 + 20");
         assertEquals(50, rs);
     }
+
+    @Test
+    public void minusTest1(){
+        int rs = Calculator.run("30 - 20");
+        assertEquals(10,rs);
+    }
+
+    @Test
+    public void minusTest2(){
+        int rs = Calculator.run("40 - 20");
+        assertEquals(20,rs);
+    }
 }
 
 
