@@ -46,6 +46,12 @@ public class AppTest {
         int rs = Calculator.run("30 / 10");
         assertEquals(3, rs);
     }
+
+    @Test
+    public void polynomialTest1(){
+        int rs = Calculator.run("1 + 2 + 3");
+        assertEquals(6, rs);
+    }
 }
 
 
