@@ -52,6 +52,30 @@ public class AppTest {
         int rs = Calculator.calc("1 + 2 + 3");
         assertEquals(6, rs);
     }
+
+    @Test
+    public void polynomialTest2(){
+        int rs = Calculator.calc("1 - 2 + 3");
+        assertEquals(2, rs);
+    }
+
+    @Test
+    public void polynomialTest3() {
+        int rs = Calculator.calc("1 * 3 / 3");
+        assertEquals(1,rs);
+    }
+    @Test
+    public void polynomialTest4() {
+        int rs = Calculator.calc("2 * 2 - 3");
+        assertEquals(1,rs);
+    }
+
+    @Test
+    public void polynomialTest5() {
+        int rs = Calculator.calc("1 + 3 * 3");
+        assertEquals(10,rs);
+    }
 }
+
 
 
