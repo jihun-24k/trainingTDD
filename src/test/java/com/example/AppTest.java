@@ -75,6 +75,12 @@ public class AppTest {
         int rs = Calculator.calc("1 + 3 * 3");
         assertEquals(10,rs);
     }
+
+    @Test
+    public void barcketTest1() {
+        int rs = Calculator.calc("2 * (2 - 3)");
+        assertEquals(-2,rs);
+    }
 }
 
 
